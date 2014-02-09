@@ -10,12 +10,17 @@ public class numberAverage {
 
    public static void main(String[] args) {
 
-      for(int x = 0; x<args.length;x++)
+   	  int resultado = 0;
+
+   	  int limite = Integer.parseInt(args[0].toString());
+
+      for(int x = 0; x< limite;x++)
       {
-      		System.out.println(args[x]);
-
+      		resultado = resultado + x;
       }
+	resultado = resultado / limite;
 
+	System.out.println(resultado);
    }
 
 }

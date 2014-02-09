@@ -10,13 +10,21 @@ public class basicOperations {
 
    public static void main(String[] args) {
 
-      int numero1, numero2;
+   		int num1, num2;
+		
 
-      numero1 = Integer.parseInt(args[0].toString());
+	  num1 = Integer.parseInt(args[0].toString());
       
-      numero2 = Integer.parseInt(args[1].toString());
+      num2 = Integer.parseInt(args[1].toString());
 
 
+      System.out.println(num1+num2);
+
+      System.out.println(num1-num2);
+
+      System.out.println(num1*num2);
+
+      System.out.println(num1/num2);
    }
 
 }
