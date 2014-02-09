@@ -11,18 +11,15 @@ mostrar
 1x2x3x4x5x6=720
 
 */
+
 public class productToNumber {   
 
    public static void main(String[] args) {
-   int resultado = Integer.parseInt(args[0].toString());
-                 int valor=0;
-for(int i=1; i<=resultado;i++){
-valor=valor*i;
-   		System.out.print(i+"x");
+   		int resultado = 0;
+   		System.out.println(args[0]);
 
-}
 
-   	System.out.println("= "+resultado);
+   		System.out.println("el producto es: "+resultado);
       
    }
 
